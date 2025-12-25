@@ -29,7 +29,6 @@ class HomeController extends GetxController {
     loadProperties();
   }
 
-  // Navigate to different sections
   void navigateToSection(int index) {
     selectedMenuIndex.value = index;
   }
@@ -64,11 +63,6 @@ class HomeController extends GetxController {
     } finally {
       isLoading.value = false;
     }
-  }
-
-  void changeLocation(String location) {
-    selectedLocation.value = location;
-    loadProperties();
   }
 
   String formatPrice(double price) {

@@ -35,6 +35,32 @@ class PropertyRepository {
       ),
       PropertyModel(
         id: '3',
+        name: 'Dreamsville House',
+        location: 'Jl. Sultan Iskandar Muda',
+        price: 2500000000,
+        priceUnit: 'Year',
+        bedrooms: 6,
+        bathrooms: 4,
+        distance: 1.8,
+        imageUrl:
+            'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800',
+        type: PropertyType.apartment,
+      ),
+      PropertyModel(
+        id: '4',
+        name: 'Ascot House',
+        location: 'Jl. Cilandak Tendean',
+        price: 3000000000,
+        priceUnit: 'Year',
+        bedrooms: 5,
+        bathrooms: 3,
+        distance: 2.5,
+        imageUrl:
+            'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800',
+        type: PropertyType.hotel,
+      ),
+      PropertyModel(
+        id: '5',
         name: 'Orchad House',
         location: 'Jl. Sultan Iskandar Muda',
         price: 2500000000,
@@ -47,7 +73,7 @@ class PropertyRepository {
         type: PropertyType.house,
       ),
       PropertyModel(
-        id: '4',
+        id: '6',
         name: 'The Hollies House',
         location: 'Jl. Sultan Iskandar Muda',
         price: 2000000000,

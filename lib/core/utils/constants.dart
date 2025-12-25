@@ -1,5 +1,5 @@
 class AppConstants {
-  static const String appName = 'Real Estate App';
+  static const String appName = 'HomeNest';
 
   // Colors
   static const primaryColor = 0xFF0FA4F0;
