@@ -1,0 +1,26 @@
+name: homenest
+description: "A new Flutter project."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.7.3
+  google_fonts: ^6.3.3
+  flutter_svg: ^2.2.3
+  shrink_sidemenu: ^2.0.0+2-null-safety
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
